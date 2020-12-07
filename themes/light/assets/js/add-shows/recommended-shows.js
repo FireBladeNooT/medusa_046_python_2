@@ -1,0 +1,1 @@
+MEDUSA.addShows.recommendedShows=function(){$.updateBlackWhiteList(void 0),$("#recommendedShows").loadRemoteShows("addShows/getRecommendedShows/","Loading recommended shows...","Trakt timed out, refresh page to try again"),$.initAddShowById(),$.initBlackListShowById(),$.initRemoteShowGrid(),$.rootDirCheck()};
